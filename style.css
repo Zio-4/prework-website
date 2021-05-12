@@ -1,3 +1,40 @@
 body {
     background: rgb(135, 150, 233);
 }
+
+.Titles {
+    text-align: center;
+}
+
+#aboutMe {
+
+}
+
+#AustriaPic {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#FrancePic {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#ItalyPic {
+    
+    object-fit: contain;
+}
+
+#SpainPic {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#YSL1 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;   
+}
