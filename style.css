@@ -10,10 +10,6 @@ body {
     text-align: center;
 }
 
-#aboutMe {
-
-}
-
 .row {
     height: 25%;
     width: 25%;
@@ -27,12 +23,7 @@ body {
     display: table;
 }
 
-#AustriaPic {
-    height: 100%;
-    width: 100%;
-}
-
-#FrancePic {
+#AustriaPic, #FrancePic, #SpainPic {
     height: 100%;
     width: 100%;
 }
@@ -40,11 +31,6 @@ body {
 #ItalyPic {
     height: 55%;
     width: 55%;
-}
-
-#SpainPic {
-    height: 100%;
-    width: 100%;
 }
 
 .row2 {
@@ -60,28 +46,9 @@ body {
     display: table;
 }
 
-#avb {
+#avb, #heady, #anger, #zhu, #shm {
     height: 100%;
     width: 100%;
-}
-
-#heady {
-    height: 100%;
-    width: 100%;
-}
-#anger {
-    height: 100%;
-    width: 100%;
-}
-
-#zhu {
-    height: 100%;
-    width: 100%;
-}
-
-#shm {
-    height: 100%;
-    width: 100%;    
 }
 
 .row3 {
@@ -97,18 +64,38 @@ body {
     display: table;
 }
 
-#trapgod {
+#trapgod, #atlien {
     height: 70%;
     width: 70%;
 }
 
-#atlien {
+.row4 {
+    height: 50%;
+    width: 50%;
+    float: left;
+    padding: 5px;  
+}
+
+.Fashion::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row5 {
+    height: 33.33%;
+    width: 33.33%;
+    float: left;
+    padding: 5px
+}
+
+#YSL1, #YSL2 {
+    width: 80%;
+    height: 80%;  
+}
+
+#Rick1 {
     height: 70%;
     width: 70%;
 }
 
-#YSL1 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;   
-}
