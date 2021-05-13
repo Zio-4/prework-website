@@ -14,28 +14,97 @@ body {
 
 }
 
-#AustriaPic {
-    width: 25%;
+.row {
     height: 25%;
-    object-fit: contain;
+    width: 25%;
+    float: left;
+    padding: 5px;
+}
+
+#Travel::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#AustriaPic {
+    height: 100%;
+    width: 100%;
 }
 
 #FrancePic {
-    width: 25%;
-    height: 25%;
-    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 
 #ItalyPic {
-    width: 25%;
-    height: 25%;
-    object-fit: contain;
+    height: 55%;
+    width: 55%;
 }
 
 #SpainPic {
-    width: 25%;
-    height: 25%;
-    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.row2 {
+    height: 20%;
+    width: 20%;
+    float: left;
+    padding: 5px;
+}
+
+#EDM::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#avb {
+    height: 100%;
+    width: 100%;
+}
+
+#heady {
+    height: 100%;
+    width: 100%;
+}
+#anger {
+    height: 100%;
+    width: 100%;
+}
+
+#zhu {
+    height: 100%;
+    width: 100%;
+}
+
+#shm {
+    height: 100%;
+    width: 100%;    
+}
+
+.row3 {
+    height: 50%;
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+
+#Rap::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#trapgod {
+    height: 70%;
+    width: 70%;
+}
+
+#atlien {
+    height: 70%;
+    width: 70%;
 }
 
 #YSL1 {
